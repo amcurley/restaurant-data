@@ -9,4 +9,4 @@ To Do:
 - Format data for tableau.
 
     AWS Pipeline?:   
-    s3 -> Kinesis -> s3 -> Lambda?Athena? -> Tableau
+    - CloudTrail to trigger step function that runs lambda function that connects S3 Buckets. S3 Kinesis data firehose to Amazon Quicksight.
